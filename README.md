@@ -1,4 +1,4 @@
-# Keyboard Simulator
+# Hotkeys
 
 Simulate keyboard keystrokes and support multiple sets of combined keys.
 
@@ -7,7 +7,7 @@ Simulate keyboard keystrokes and support multiple sets of combined keys.
 Basic usage:
 
 ```bash
-simulator.exe Ctrl+Alt,Ctrl+Win+Left
+hotkeys.exe Ctrl+Alt,Ctrl+Win+Left
 ```
 
 Used in winxcorners:
@@ -35,4 +35,5 @@ This table organizes the keys into categories to make it easier to identify thei
 | **Control Keys**     | `Esc`, `Tab`, `Caps`, `Space`, `Enter`, `Bksp`                                                               | Escape, Tab, Caps Lock, Space, Enter, Backspace       |
 | **Editing Keys**     | `Ins`, `Del`, `Home`, `End`, `PgUp`, `PgDn`                                                                  | Insert, Delete, Home, End, Page Up, Page Down         |
 | **Punctuation Keys** | `SColon`, `Plus`, `Comma`, `Minus`, `Dot`, `Slash`, `Tilde`, `LBrack`, `Bslash`, `RBrack`, `Quote` | Various punctuation marks like ; + , - . / ~ [ \ ] '  |
+| **Multimedia keys**  | `MediaNext`, `MediaPrev`, `MediaStop`, `MediaPlayPause`, `VolumeMute`, `VolumeUp`, `VolumeDown` | Multimedia keys  |
 | **Special Keys**     | `PrtSc`, `Scroll`, `Pause`, `Menu`                                                                               | Print Screen, Scroll Lock, Pause, Application Menu    |
